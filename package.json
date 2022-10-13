@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Installa le dipendenze",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "gpio": "^0.2.10",
+    "onoff": "^6.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dagyu/gestioneInterruttori.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dagyu/gestioneInterruttori/issues"
+  },
+  "homepage": "https://github.com/dagyu/gestioneInterruttori#readme"
+}
